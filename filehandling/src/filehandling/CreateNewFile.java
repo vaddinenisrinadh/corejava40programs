@@ -22,7 +22,7 @@ public class CreateNewFile
  
     private static void createFileUsingFileClass() throws IOException
     {
-          File file = new File("D:\\srivenu//a.txt");
+          File file = new File("c://temp//testFile1.txt");
   
           //Create the file
           if (file.createNewFile()){
